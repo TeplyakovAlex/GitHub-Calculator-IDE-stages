@@ -10,6 +10,7 @@ public class Main {
         int c = add(a, b);
         System.out.println(c);
         int d = multiply(a, b);
+
         System.out.println(d);
     }
 
