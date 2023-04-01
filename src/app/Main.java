@@ -10,8 +10,10 @@ public class Main {
         int c = add(a, b);
         System.out.println(c);
         int d = multiply(a, b);
-
         System.out.println(d);
+        int e = sub(a,b);
+        System.out.println(e);
+
     }
 
     private static int add(int a, int b) {
@@ -20,5 +22,9 @@ public class Main {
 
     private static int multiply(int a, int b) {
         return a * b;
+    }
+
+    private static int sub(int a, int b) {
+        return a - b;
     }
 }
